@@ -2,7 +2,7 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :hello_bitcoin, bitcoin_url: "http://satoshi:satoshi@localhost:8332"
+config :hello_bitcoin, bitcoin_url: "http://<username>:<password>@localhost:8332"
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
